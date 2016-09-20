@@ -20,3 +20,6 @@ x AdminUser -> STI
 ## Testing:
 - RSpec
 - Capybara
+
+## Refactor TODOS:
+- Refactor user association integration test in post_spec

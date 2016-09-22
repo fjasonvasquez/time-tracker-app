@@ -16,10 +16,12 @@ Key requirement: company needs documentation that salaried employees did or did 
 
 ## UI:
 - Bootstrap -> formatting
+- layoutit.com/build
 
 ## Testing:
 - RSpec
 - Capybara
 
 ## Refactor TODOS:
+- Add full_name method for users
 - Refactor user association integration test in post_spec

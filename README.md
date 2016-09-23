@@ -15,13 +15,12 @@ Key requirement: company needs documentation that salaried employees did or did 
 -	Needs to be documented if employee did not log overtime
 
 ## UI:
-- Bootstrap -> formatting
+- x Bootstrap -> formatting
 - layoutit.com/build
 
 ## Testing:
-- RSpec
-- Capybara
+- x RSpec
+- x Capybara
 
 ## Refactor TODOS:
-- Add full_name method for users
 - Refactor user association integration test in post_spec

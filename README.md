@@ -16,7 +16,9 @@ Key requirement: company needs documentation that salaried employees did or did 
 
 ## UI:
 - x Bootstrap -> formatting
-- layoutit.com/build
+- x layoutit.com/build
+- Icons from Font Awesome
+- Update the styles for forms
 
 ## Testing:
 - x RSpec

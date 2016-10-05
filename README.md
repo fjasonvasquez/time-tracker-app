@@ -27,3 +27,4 @@ Key requirement: company needs documentation that salaried employees did or did 
 
 ## Refactor TODOS:
 - Refactor user association integration test in post_spec
+- Refactor posts/_form for admin user with status

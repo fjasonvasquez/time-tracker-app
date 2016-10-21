@@ -26,5 +26,8 @@ Key requirement: company needs documentation that salaried employees did or did 
 - x RSpec
 - x Capybara
 
-## Refactor TODOS:
-- xRefactor posts/_form for admin user with status
+## TODOS:
+- Integrate validation for phone attr in User:
+	# No spaces or dashes
+	# all characters have to be a number
+	# exactly 10 characters

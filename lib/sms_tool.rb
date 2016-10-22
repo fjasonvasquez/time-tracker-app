@@ -13,4 +13,5 @@ module SmsTool
 	end
 end
 
+#rails console
 #SmsTool.send_sms(number: '4247897079', message: "Look at me, I'm in a text")

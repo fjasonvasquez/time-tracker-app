@@ -5,8 +5,9 @@ describe 'AuditLog Feature' do
 
 	describe 'index' do 
 		before do 
-			admin_user = FactoryGirl.create(:admin_useradmin_user)
-			login_as(admin_user, :scope => :admin_user) 
+			admin_user = FactoryGirl.create(:admin_user)
+			login_as(admin_user, :scope => :user) 
+			FactoryGirl.create(:audit_log)
 		end
 
 		it 'has an index page that can be reached' do 
@@ -16,11 +17,10 @@ describe 'AuditLog Feature' do
 
 		it 'renders audit log content' do 
 			visit audit_logs_path
-			expect(page).to have_content(/SNOW, JON/)
+			expect(page).to have_content(/SNOW/)
 		end
 
 		xit 'cannot be accessed by non admin users'
 
 		end
 	end
-end

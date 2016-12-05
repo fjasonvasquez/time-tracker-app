@@ -24,7 +24,7 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Remove unnecessary nav bar buttons for managers
 - Fix admin dashboard bug
 - Implement Honeybadger error reporting
-- Implement new relic for keeping site alive
+- Implement new relic for keeping site
 
 ## UI:
 - x Bootstrap -> formatting

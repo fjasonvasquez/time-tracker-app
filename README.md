@@ -15,8 +15,8 @@ Key requirement: company needs documentation that salaried employees did or did 
 - x Block non admin and guest users
 -	x Email summary to managers for approval
 -	x Needs to be documented if employee did not log overtime
-- Create audit log for each text message
-- Need to update end_date when confirmed
+- x Create audit log for each text message
+- x Need to update end_date when confirmed
 - Need to update audit log status when an overtime status is rejected
 - Update buttons on employee homepage so they show on mobile
 - Update buttons to include time span
@@ -25,6 +25,7 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Fix admin dashboard bug
 - Implement Honeybadger error reporting
 - Implement new relic for keeping site
+- Check on data issue and verify correct hours are being tracked
 
 ## UI:
 - x Bootstrap -> formatting

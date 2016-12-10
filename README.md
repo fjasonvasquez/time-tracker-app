@@ -23,8 +23,7 @@ Key requirement: company needs documentation that salaried employees did or did 
 - x Update button sort order on employee homepage
 - x Remove unnecessary nav bar buttons for managers
 - x Fix admin dashboard bug
-- (Implement Honeybadger error reporting)
-- Implement new relic for keeping site
+- x Implement new relic for keeping site
 
 ## UI:
 - x Bootstrap -> formatting

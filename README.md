@@ -22,10 +22,9 @@ Key requirement: company needs documentation that salaried employees did or did 
 - x Update buttons to include time span
 - x Update button sort order on employee homepage
 - x Remove unnecessary nav bar buttons for managers
-- Fix admin dashboard bug
-- Implement Honeybadger error reporting
+- x Fix admin dashboard bug
+- (Implement Honeybadger error reporting)
 - Implement new relic for keeping site
-- Check on data issue and verify correct hours are being tracked
 
 ## UI:
 - x Bootstrap -> formatting

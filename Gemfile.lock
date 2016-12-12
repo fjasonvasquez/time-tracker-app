@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/amatsuda/kaminari.git
+  revision: e83d6cebf69fd78e3c9830992209601fdc3e0f23
+  branch: 0-17-stable
+  specs:
+    kaminari (0.17.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+
+GIT
   remote: git://github.com/greetpoint/administrate.git
   revision: 3ac84a8820a72ffc8ed6568ca899bcc9a8e0cdba
   branch: rails5
@@ -110,7 +119,6 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     gritter (1.2.0)
-    honeybadger (2.5.1)
     i18n (0.7.0)
     jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)
@@ -121,9 +129,6 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.3)
     jwt (1.5.4)
-    kaminari (0.17.0)
-      actionpack (>= 3.0.0)
-      activesupport (>= 3.0.0)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -266,13 +271,12 @@ DEPENDENCIES
   dotenv-rails
   factory_girl_rails (~> 4.7)
   gritter (= 1.2.0)
-  honeybadger (~> 2.0)
   jbuilder (~> 2.0)
   jquery-rails
-  kaminari (~> 0.17.0)
+  kaminari!
   newrelic_rpm (~> 3.15, >= 3.15.0.314)
-  pg (~> 0.15)
-  puma (~> 3.4)
+  pg
+  puma (~> 3.6)
   pundit (~> 1.1)
   rails (~> 5.0, >= 5.0.0.1)
   rails_12factor

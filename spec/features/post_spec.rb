@@ -24,11 +24,15 @@ describe 'navigate' do
 			expect(page).to have_content(/Posts/)
 		end
 
-		xit 'has a list of posts' do
-			post1 = FactoryGirl.build_stubbed(:post)
-			post2 = FactoryGirl.build_stubbed(:second_post) 
+		it 'has a list of posts' do
+			post
+			second_post = FactoryGirl.create(:second_post)
+			second_post.update!(user_id: user.id)
+
 			visit posts_path
-			expect(page).to have_content(/WorkPerformed|content/)
+
+			expect(page).to have_text(post.work_performed)
+			expect(page).to have_text(second_post.work_performed)
 		end
 
 		it 'has a scope so that only post creators can see their posts' do
@@ -44,10 +48,10 @@ describe 'navigate' do
 	describe 'new' do 
 		it 'has a link from the homepage' do
 			employee = Employee.create(first_name: 'Employee', last_name: 'Authorized', email: 'employee@example.com', password: 'asdfasdf', password_confirmation: 'asdfasdf', phone: '5555555555')	
-			login_as(user, :scope => :user)
+			login_as(employee, :scope => :user)
 			visit root_path
 
-			click_link('new_post_from_nav')
+			click_link("new_post_from_nav")
 			expect(page.status_code).to eq(200)
 		end
 	end
